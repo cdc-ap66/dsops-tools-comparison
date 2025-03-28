@@ -31,13 +31,19 @@ model experimentation:
 ### Metaflow
 
 Metaflow is a workflow orchestration framework developed by Netflix that
-focuses on:
+focuses on (most documentation and community examples in Python, but there is
+and R version too):
 
 - Defining data science workflows as code (DAGs)
 - Running steps in parallel
 - **Managing dependencies between steps**
 - **Scaling from local development to production**
 - Versioning data and results
+
+Similar and competitive technologies to metaflow include:
+
+- flyte
+- zenml
 
 ### MLflow
 
@@ -50,6 +56,10 @@ that focuses on:
 - Providing a central model registry
 - **Offering a UI for visualizing and comparing experiments**
 - *Bindings for popular ML packages*
+
+Similar and competitive technologies to mlflow include:
+
+- kubeflow
 
 ### DVC (Data Version Control)
 
